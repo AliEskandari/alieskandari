@@ -32,8 +32,8 @@ footer {
 }
 
 .btn-github {
-    color: #000;
-    background-color: #D5D5D5;
+    color: #fff;
+    background-color: #006699;
 }
 
 .btn-behance {
@@ -51,4 +51,3 @@ footer {
 }
 
 .top-buffer { margin-top: 40px; }
-
