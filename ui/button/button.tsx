@@ -1,75 +1,81 @@
-import React from "react";
-import { MotionProps, motion } from "framer-motion";
-import { ButtonHTMLAttributes, ReactNode, forwardRef } from "react";
+import Link from "next/link";
+import { AnchorHTMLAttributes, ButtonHTMLAttributes, forwardRef } from "react";
 import { twMerge } from "tailwind-merge";
+import React, {
+  ForwardRefExoticComponent,
+  PropsWithoutRef,
+  RefAttributes,
+} from "react";
+export type ButtonProps = LinkProps | _ButtonProps;
 
-export type ButtonProps = Omit<
-  ButtonHTMLAttributes<HTMLButtonElement>,
-  keyof MotionProps
-> &
-  MotionProps & {
-    variant?: keyof typeof variants;
-    isLoading?: boolean;
-    loadingText?: string;
-    as?: "Link";
-    href?: string;
-    selected?: boolean; // Add the selected property
-  };
+export type _ButtonProps = {
+  as?: "button" | undefined;
+} & ButtonHTMLAttributes<HTMLButtonElement> &
+  CustomProps;
+
+export type LinkProps = {
+  as: "Link";
+} & AnchorHTMLAttributes<HTMLAnchorElement> &
+  CustomProps;
+
+type CustomProps = {
+  variant?: keyof typeof variants;
+  isLoading?: boolean;
+  loadingText?: string;
+  selected?: boolean; // Add the selected property
+};
 
 const variants = {
-  primary:
-    "bg-orange-100 text-orange-500 hover:bg-orange-200 active:bg-orange-300",
-  secondary: "bg-gray-100 text-gray-500 hover:bg-gray-200 active:bg-gray-300",
+  primary: "bg-goldenrod text-white",
+  secondary: "bg-offwhite text-goldenrod border border-lightgold",
   secondaryDark:
     "hover:bg-gray-500 active:bg-gray-300 hover:text-white border-red-100 ",
-  red: "bg-red-100 text-red-500 hover:bg-red-200 active:bg-red-300",
   dark: "bg-black text-white hover:bg-neutral-800 active:bg-neutral-700",
-  outline: "text-orange-500 hover:text-orange-400 active:text-orange-300",
+  outline: "text-oxfordblue hover:text-gray-700",
   "outline-dark": "text-black hover:text-neutral-800 active:text-neutral-700",
   none: "p-0",
+  disabled: "",
 } as const;
 
-const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  (
-    {
-      className,
-      children,
-      variant,
-      isLoading,
-      loadingText,
-      as,
-      href,
-      selected, // Get the selected property from props
-      ...props
-    },
-    ref
-  ) => {
-    const _props = {
-      className: twMerge(
-        "transition-colors outline-none focus:outline-none rounded-lg disabled:cursor-pointer py-3 px-5",
-        variants[variant ?? "none"],
-        className,
-        isLoading && variants.secondary,
-        props.disabled && variants.secondary,
-        props.hidden && "hidden",
-        selected && "dark:bg-gray-800 text-gray-100" // Apply dark style when selected is true
-      ),
-      disabled: isLoading,
-    };
-    if (as == "Link") {
-      return (
-        <a href={href ?? ""} {..._props}>
-          {children as ReactNode}
-        </a>
-      );
-    }
+export const Button: ForwardRefExoticComponent<
+  PropsWithoutRef<ButtonProps> & RefAttributes<HTMLButtonElement>
+> = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
+  const {
+    className,
+    variant,
+    isLoading,
+    selected,
+    loadingText,
+    ...elementProps
+  } = props;
 
+  const _className = twMerge(
+    "transition-colors outline-none focus:outline-none rounded-sm disabled:cursor-pointer py-3 px-5",
+    variants[variant ?? "none"],
+    className,
+    isLoading && variants.disabled,
+    props.as !== "Link" && props.disabled && variants.secondary,
+    props.hidden && "hidden",
+    selected && "dark:bg-gray-800 text-gray-100" // Apply dark style when selected is true
+  );
+
+  if (elementProps.as == "Link") {
+    const { href, as, ...rest } = elementProps;
+    return <Link href={href ?? ""} {...rest} className={_className} />;
+  } else {
+    const { children, as, ...rest } = elementProps;
     return (
-      <motion.button ref={ref} type="button" {..._props} {...props}>
+      <button
+        ref={ref}
+        type="button"
+        {...rest}
+        className={_className}
+        disabled={isLoading}
+      >
         {isLoading && loadingText ? loadingText : children}
-      </motion.button>
+      </button>
     );
   }
-);
+});
 
 export default Button;
