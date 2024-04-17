@@ -14,7 +14,10 @@ If you looking for code examples of my work, I've pulled together some samples f
 * For a good example of my **modular approach to large projects**, see the the [Lockr](https://github.com/AliEskandari/lockr) project repo - specifically for the folder structure and modularization in `modules` folder.
 -->
 
-## Projects
+## 🎯 Skills
+**Frontend**: React (4 years), Next.js (2 years), Zustand, Redux (1 year), Tailwind CSS (2 years), Bootstrap, Storybook.js, Lighthouse, React Query, Prisma, Jest, Zod. **Backend**: Node.js / Express.js (3 years), Ruby on Rails (2 years). **Languages**: JavaScript (5 years), TypeScript (3 years), Ruby (3 years), HTML / CSS (5 years), Python, Java. **Databases**: MySQL (2 Years), PostgreSQL, MongoDB (2 years), Google Firestore, Elasticsearch (2 years), Typesense. **DevOps**: AWS (3 years) EC2, SQS, S3, SES, EBS, CloudFormation, Vercel, Google Cloud (1 year), Firebase (1 year), Docker, GitHub Actions. **Other**: Figma, Stripe. **Relevant Courses**: Design and Analysis of Algorithms, Data Structures, Software Engineering
+
+## ✅ Work Experience & Projects
 
 | Project               | Description                                                                     | Live Link | Technologies Used                                              | Language   | Code     | Year |
 |-----------------------|---------------------------------------------------------------------------------|------|----------------------------------------------------------------|------------|----------|-------|
