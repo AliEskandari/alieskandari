@@ -6,7 +6,7 @@ This repo is for employers looking for code examples of my work. I've pulled cod
 * If you'd like to see a good example of my **TypeScript** skills please see the [Firestore Manager project](https://github.com/AliEskandari/firestore-manager/tree/main/src/functions). There you will see a heavy use of TypeScript Generics, Type Contraints, and Function Declaration Overloading.
 * If you'd like to see a good example of **frontend-heavy features** ([client-side fetching through custom hooks](spell-trader/modules/frontend/hooks), [caching with React Query](spell-trader/modules/frontend/hooks), [global state with Zustand](/spell-trader/state.ts)), see the **SpellTrader** sample.
 * If you'd like to see an example of my ability to write **clean, organized, frontend code** that achieves 90+ Lighthouse metrics, see the [Security USA](https://github.com/AliEskandari/for-employers/tree/main/security-usa) project sample.
-* Lastly, if you'd like to see some **basic testing** using `Storybook.js`, see [storybook](https://660ce1807fe47f2a1f89d6f5-meomjgpifs.chromatic.com) for the Security USA project.
+* Lastly, if you'd like to see some **basic testing** using `Storybook.js`, see the [storybook](https://660ce1807fe47f2a1f89d6f5-meomjgpifs.chromatic.com) for the Security USA project.
 <!--
 * For a good example of my **modular approach to large projects**, see the the [Lockr](https://github.com/AliEskandari/lockr) project repo - specifically for the folder structure and modularization in `modules` folder.
 -->
