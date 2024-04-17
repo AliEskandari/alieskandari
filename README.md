@@ -3,7 +3,7 @@
 This repo is for employers looking for code examples of my work. I've pulled code from a variety of projects to provide you with a concrete example of my code quality and organization.
 
 ## Tips
-A few notes...
+A few tips...
 * If you'd like to see a good example of my **TypeScript** skills please see the [Firestore Manager project](https://github.com/AliEskandari/firestore-manager/tree/main/src/functions). There you will see a heavy use of TypeScript Generics, Type Inference, and Function Declaration Overloading.
 * If you'd like to see a good example of **frontend-heavy features** ([client-side fetching through custom hooks](spell-trader/modules/frontend/hooks), [caching with React Query](spell-trader/modules/frontend/hooks)), see the **SpellTrader** sample.
 * If you'd like to see an example of my ability to write **clean, organized, frontend code** that achieves 90+ Lighthouse metrics, see the [Security USA](https://github.com/AliEskandari/for-employers/tree/main/security-usa) project sample.
