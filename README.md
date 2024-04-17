@@ -3,9 +3,9 @@
 I'm Ali. I'm a software engineer with experience in a variety of areas in the tech industry. Over the past 15 years, I've worked on VR games, low-level assembly programing, machine learning, data vision, mobile apps, UX design, dev-ops, and system design... among other things. I've also had the opportunity to work in all types of work environments: from "Big Tech" companies (Amazon) to mid-tier companies (Booz Allen Hamilton) to small pre-seed startups. These experiences have helped me become a well-rounded engineer who can handle any unexpected obstacle that shows up - because they always do.
 
 ## 💼 Employers 
-If you looking for code examples of my work, I've pulled code from a variety of projects to provide you a concrete example of my code quality and organization.
+If you looking for code examples of my work, I've pulled together some samples for you to get an idea of my code quality and organization skills.
 
-### A Few Highlights...
+### 💡 A Few Highlights...
 * If you'd like to see a good example of my **TypeScript** skills please see the [Firestore Manager project](https://github.com/AliEskandari/firestore-manager/tree/main/src/functions). There you will see a heavy use of TypeScript Generics, Type Contraints, and Function Declaration Overloading.
 * If you'd like to see a good example of **frontend-heavy features** ([client-side fetching through custom hooks](spell-trader/modules/frontend/hooks), [caching with React Query](spell-trader/modules/frontend/hooks), [global state with Zustand](/spell-trader/state.ts)), see the **SpellTrader** sample.
 * If you'd like to see an example of my ability to write **clean, organized, frontend code** that achieves 90+ Lighthouse metrics, see the [Security USA](https://github.com/AliEskandari/for-employers/tree/main/security-usa) project sample.
