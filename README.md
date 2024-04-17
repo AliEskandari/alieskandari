@@ -1,4 +1,4 @@
-# 👋 Hi!
+# 👋 Hi
 
 I'm Ali. I'm a software engineer with experience in a variety of areas in the tech industry. Over the past 15 years, I've worked on VR games, low-level assembly programing, machine learning, data vision, mobile apps, UX design, dev-ops, system design, and web development... among other things. I've also had the opportunity to work in all types of work environments: from "Big Tech" companies (Amazon) to mid-tier companies (Booz Allen Hamilton) to small pre-seed startups. These experiences have helped me become a well-rounded engineer who can handle any unexpected obstacle that shows up - because they always do.
 
