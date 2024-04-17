@@ -2,6 +2,12 @@
 
 This repo is for employers looking for code examples of my work. I've pulled code from a variety of projects to provide you with a concrete example of my code quality and organization.
 
+## Tips
+A few notes...
+* If you'd like to see a good example of my **TypeScript** skills please see the **Firestore Manager** project. There you will see a heavy use of TypeScript Generics, Type Inference, and Function Declaration Overloading.
+* If you'd like to see a good example of **frontend-heavy features** (client-side fetching, caching with React Query, and _), see the **SpellTrader** sample.
+* If you'd like to see an example of my ability to write **clean, organized, frontend code** that achieves 90+ Lighthouse metrics, see the **Security USA** project sample.
+
 ## Projects
 
 | Project               | Description                                                                     | Live Link | Technologies Used                                              | Language   | Code     | Year |
