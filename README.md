@@ -7,7 +7,9 @@ A few notes...
 * If you'd like to see a good example of my **TypeScript** skills please see the [Firestore Manager project](https://github.com/AliEskandari/firestore-manager/tree/main/src/functions). There you will see a heavy use of TypeScript Generics, Type Inference, and Function Declaration Overloading.
 * If you'd like to see a good example of **frontend-heavy features** ([client-side fetching through custom hooks](spell-trader/modules/frontend/hooks), [caching with React Query](spell-trader/modules/frontend/hooks)), see the **SpellTrader** sample.
 * If you'd like to see an example of my ability to write **clean, organized, frontend code** that achieves 90+ Lighthouse metrics, see the [Security USA](https://github.com/AliEskandari/for-employers/tree/main/security-usa) project sample.
-* For a good example of my **modular approach to large projects**, see the the [Lockr](https://github.com/AliEskandari/lockr) project repo - specifically for the folder structure and `modules` folder.
+<!--
+* For a good example of my **modular approach to large projects**, see the the [Lockr](https://github.com/AliEskandari/lockr) project repo - specifically for the folder structure and modularization in `modules` folder.
+-->
 
 ## Projects
 
