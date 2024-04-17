@@ -14,9 +14,6 @@ If you looking for code examples of my work, I've pulled together some samples f
 * For a good example of my **modular approach to large projects**, see the the [Lockr](https://github.com/AliEskandari/lockr) project repo - specifically for the folder structure and modularization in `modules` folder.
 -->
 
-## 🎯 Skills
-**Frontend**: React (4 years), Next.js (2 years), Zustand, Redux (1 year), Tailwind CSS (2 years), Bootstrap, Storybook.js, Lighthouse, React Query, Prisma, Jest, Zod. **Backend**: Node.js / Express.js (3 years), Ruby on Rails (2 years). **Languages**: JavaScript (5 years), TypeScript (3 years), Ruby (3 years), HTML / CSS (5 years), Python, Java. **Databases**: MySQL (2 Years), PostgreSQL, MongoDB (2 years), Google Firestore, Elasticsearch (2 years), Typesense. **DevOps**: AWS (3 years) EC2, SQS, S3, SES, EBS, CloudFormation, Vercel, Google Cloud (1 year), Firebase (1 year), Docker, GitHub Actions. **Other**: Figma, Stripe. **Relevant Courses**: Design and Analysis of Algorithms, Data Structures, Software Engineering
-
 ## ✅ Work Experience & Projects
 
 | Project               | Description                                                                     | Live Link | Technologies Used                                              | Language   | Code     | Year |
@@ -29,4 +26,5 @@ If you looking for code examples of my work, I've pulled together some samples f
 | Lockr | (Personal project) Social media tool that helps content creators grow their audience. Creators can "lock" their content behind actions like following, subscribing, and commenting on their post| [lockr.social](https://lockr.social) | TypeScript, React.js, Next.js, tRPC, Tailwind, Firebase, Vercel | <img src="assets/typescript-logo.png" width="20px"/>TypeScript | [Repo](https://github.com/AliEskandari/lockr) | 2022 |
 | DomumGym                 | Built from the ground up, video platform for workout instructors, handling everything from user experience design to deployment, similar in function to YouTube but focused on exercise content. | [domumgym.com](https://domumgym.com) | JavaScript, React.js, Bootstrap, Rendertron, Google Firestore, Google Cloud Storage | <img src="assets/javascript-logo.png" width="20px"/>JavaScript | [Sample](https://github.com/AliEskandari/video-platform) | 2022 |
 
-  
+## 🎯 Skills
+**Frontend**: React (4 years), Next.js (2 years), Zustand, Redux (1 year), Tailwind CSS (2 years), Bootstrap, Storybook.js, Lighthouse, React Query, Prisma, Jest, Zod. **Backend**: Node.js / Express.js (3 years), Ruby on Rails (2 years). **Languages**: JavaScript (5 years), TypeScript (3 years), Ruby (3 years), HTML / CSS (5 years), Python, Java. **Databases**: MySQL (2 Years), PostgreSQL, MongoDB (2 years), Google Firestore, Elasticsearch (2 years), Typesense. **DevOps**: AWS (3 years) EC2, SQS, S3, SES, EBS, CloudFormation, Vercel, Google Cloud (1 year), Firebase (1 year), Docker, GitHub Actions. **Other**: Figma, Stripe. **Relevant Courses**: Design and Analysis of Algorithms, Data Structures, Software Engineering
